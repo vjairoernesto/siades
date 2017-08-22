@@ -158,6 +158,26 @@
                                             </select> 
                                         </div>
                                     </div>
+                                    
+                                     <div class="form-group">
+                                        <label for="seccion" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 control-label">Seccion :</label>
+                                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                             <select name="Seccion">
+                                              <option value="1">A</option>
+                                              
+                                            </select> 
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="Turno" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 control-label">Turno :</label>
+                                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                             <select name="Seccion">
+                                              <option value="1">Mañana</option>
+                                              
+                                            </select> 
+                                        </div>
+                                    </div>
 
                                     <div class="form-group">
                                         <label for="Gradoanterior" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 control-label">Grado anterior :</label>
