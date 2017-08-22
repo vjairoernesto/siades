@@ -6,3 +6,7 @@
     function cargapersona(){
     	$('#contenido').load('views/v_persona/form_persona.php');
     }
+function cargaalumno(){
+    	$('#contenido').load('views/v_alumno/form_alumno.php');
+    }
+    

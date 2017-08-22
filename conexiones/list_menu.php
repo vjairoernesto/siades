@@ -43,7 +43,7 @@ $menu_reporte ='';
         $menu_index.='  <a href="#"><i class="fa fa-user fa-3x"></i> Alumno<span class="fa arrow"></span></a>';
         $menu_index.=' <ul class="nav nav-second-level">';
         $menu_index.='<li>
-                                <a href="#">Registro</a>
+                                <a href="#" onclick="cargaalumno();">Registro</a>
                             </li>';
         $menu_index.='   <li>
                                 <a href="#">Actualizacion</a>
