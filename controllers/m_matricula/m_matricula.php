@@ -24,7 +24,7 @@
 	$telefono=TRIM($_POST["telefono"]);
 	$nhermanos=TRIM($_POST["cbonhermanos"]);
 	$otrofamiliar=TRIM($_POST["otrofamiliar"]);
-	$repitegrado=TRIM($_POST["cborepitegrado"]);
+	$repitegrado=TRIM($_POST["repitegrado"]);
 	$reciberefuerzo=TRIM($_POST["cboreciberefuerzo"]);
 	$tiporefuerzo=TRIM($_POST["repiterefuerzotipo"]);
 	$provieneescuelaespecial=TRIM($_POST["cboescuelaespecialproviene"]);
@@ -34,9 +34,10 @@
 	$observaciones=TRIM($_POST["observaciones"]);
 	$docenteacargo=TRIM($_POST["docenteacargo"]);
 	$fechaactual= date("d-m-Y");
+	$documentoscompletos=TRIM(['entrego']);
 
 	$sql="insert into matricula(Observaciones,Nhermanos,Repite_grado,Id_documento,Id_alumno,Id_aniolectivo,Id_parentezco,Id_cargadocente,Id_seccion,Id_turno,Institicion_procedente,Id_escuelaespecial) 
-	values('$observaciones','$nhermanos','Si','1','1','1','1','1','1','1','$institucionprocedencia','1')";
+	values('$observaciones','$nhermanos','$repitegrado','$documentoscompletos','$estudiante','$anoinscripcion','','1','1','1','$institucionprocedencia','1')";
 
 	$query=$conn->query($sql);
 

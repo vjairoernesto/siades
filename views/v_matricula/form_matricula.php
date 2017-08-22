@@ -136,7 +136,29 @@
                                         </div>
                         </div>
 
-                                        
+
+                        <div class="form-group">
+                            <label for="nombreinstitucionprocedencia" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 control-label">Documentos completos? :</label>
+                             <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                       <select name="entrego">
+                                         <option value="Si">Si</option>
+                                         <option value="No">No</option>
+                                       </select>
+                                        </div>
+                        </div>
+
+                                    
+                                    <div class="form-group">
+                                        <label for="Repitegrado" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 control-label">Repite grado :</label>
+                                        <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                             <select name="repitegrado">
+                                              <option value="Si">Si</option>
+                                              <option value="No">No</option>
+                                              
+                                            </select> 
+                                        </div>
+                                    </div>
+
                                     <div class="form-group">
                                         <label for="Gradoanterior" class="col-xs-12 col-sm-3 col-md-3 col-lg-3 control-label">Grado anterior :</label>
                                         <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
