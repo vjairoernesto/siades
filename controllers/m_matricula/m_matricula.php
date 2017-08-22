@@ -35,9 +35,11 @@
 	$docenteacargo=TRIM($_POST["docenteacargo"]);
 	$fechaactual= date("d-m-Y");
 	$documentoscompletos=TRIM(['entrego']);
+	$seccion=TRIM(['seccion']);
+	$turno=TRIM($_POST['turno']);
 
-	$sql="insert into matricula(Observaciones,Nhermanos,Repite_grado,Id_documento,Id_alumno,Id_aniolectivo,Id_parentezco,Id_cargadocente,Id_seccion,Id_turno,Institicion_procedente,Id_escuelaespecial) 
-	values('$observaciones','$nhermanos','$repitegrado','$documentoscompletos','$estudiante','$anoinscripcion','','1','1','1','$institucionprocedencia','1')";
+	$sql="insert into matricula(Observaciones,Nhermanos,Repite_grado,Id_documento,Id_alumno,Id_aniolectivo,Id_encargado,Id_cargadocente,Id_seccion,Id_turno,Institicion_procedente,Id_escuelaespecial) 
+	values('$observaciones','$nhermanos','$repitegrado','$documentoscompletos','$estudiante','$anoinscripcion','$encargado','$docenteacargo','$seccion','$turno','$institucionprocedencia','$provieneescuelaespecial')";
 
 	$query=$conn->query($sql);
 
