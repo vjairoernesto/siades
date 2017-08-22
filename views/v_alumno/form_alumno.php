@@ -75,7 +75,7 @@
 			</div>
           <?php
 			
-			include_once('../../conexiones/conexion.php');
+			include('../../conexiones/conexion.php');
 			$sqlCiclo="select * from discapacidad";
 			$rCiclo=$conn->query($sqlCiclo);
 			$fCiclo = mysqli_fetch_assoc($rCiclo);
